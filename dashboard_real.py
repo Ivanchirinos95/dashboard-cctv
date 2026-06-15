@@ -10,7 +10,7 @@ st.markdown("Interactividad Cruzada Multigráfico: Haz clic en las barras de cua
 # 2. Carga, Normalización y Mapeo del CSV real
 @st.cache_data
 def preparar_datos_central():
-    ruta = r"D:\DATOS IVAN NO TOCAR\VS CODE\DATA\OPERADOR\1-13 OP. CÁMARAS JUNIO (CULMINADO)TOTAL.csv"
+    ruta = "DATA/OPERADOR/1-13 OP. CÁMARAS JUNIO (CULMINADO)TOTAL.csv"
     df = pd.read_csv(ruta, encoding='utf-8', sep=';')
     
     # Limpieza de títulos de columnas
