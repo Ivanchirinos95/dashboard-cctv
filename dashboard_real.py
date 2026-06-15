@@ -245,5 +245,5 @@ columnas_vista = [
     'FECHA', 'OPERADOR', 'TURNO', 'CAMARA', 'INCIDENTES_DE_ESTA_CAMARA', 
     'TITULO', 'DESCRIPCIÓN'
 ]
-
-st.dataframe(df_final[columnas_vista], use_container_width=True)
+# Candado digital: Se bloquea la barra de herramientas para impedir la descarga del CSV
+st.dataframe(df_final[columnas_vista], use_container_width=True, on_select=None)
