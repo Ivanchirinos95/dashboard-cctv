@@ -1,0 +1,4 @@
+# Ocultar y proteger la base de datos de la central de videovigilancia
+DATA/
+*.csv
+*.xlsx
